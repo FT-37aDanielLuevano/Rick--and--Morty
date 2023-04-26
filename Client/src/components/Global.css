@@ -1,0 +1,197 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.personaje {
+  width: 14rem;
+  margin-top: 1rem;
+  margin:3rem
+
+}
+
+.cerrar {
+  width: 13rem;
+  border: transparent;
+  border-radius: 1rem;
+  background-color: red;
+  margin-top: 1em;
+  margin-left: 3.4em;
+  border: 1px solid white;
+
+}
+
+.fav button {
+  width: 13rem;
+  border: transparent;
+  border-radius: 1rem;
+  margin-top: 1px;
+  margin-left: 3.4rem;
+}
+
+.container_card {
+  border: 1px solid black;
+  width: 20rem;
+  float: left;
+  margin-left: 4rem;
+  margin-top: 3rem;
+  border-radius: 2rem;
+  background-color: aqua;
+}
+.rutas button {
+  border-radius: 2rem;
+  padding: 0.4rem;
+  margin-right: 1rem;
+  border: transparent;
+  background-color: aqua;
+  color: rgba(67, 12, 150, 0.882);
+
+
+}
+.buscador button {
+  border-radius: 2rem;
+  
+ 
+  
+  
+  
+}
+.buscador input {
+  border-radius: 2rem;
+  margin-right: 0.4rem;
+
+}
+.buscador {
+ 
+  display: flex;
+  
+}
+
+.send {
+
+  width: 10rem;
+  margin-left: 0.5rem;
+  
+}
+
+.send button {
+  border-radius: 2rem;
+  margin: auto;
+}
+
+.loggin {
+  border: 1px solid black;
+  width: 40rem;
+  margin:auto;
+  margin-top: 3rem;
+  padding: 4rem;
+  background-image: url('./login/fondo-login.png');
+  background-position: center;
+  background-size: fixed;
+
+}
+.login {
+  border: 1px solid black;
+  width: 15rem;
+  margin:auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: #B2A4FF;
+  margin-top: 3rem;
+}
+
+.img img {
+  width: 10rem;
+  height: 10rem;
+  width: 100%;
+  border-radius: 30rem;
+}
+.form label {
+  color: brown;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+  text-align: center;
+
+}
+.form input {
+  border-radius: 0.2rem;
+  border: transparent;
+  background-color: beige;
+  text-align: center;
+  padding: 0.1rem;
+}
+
+.form button {
+  border-radius: 0.2rem;
+  border: transparent;
+  margin-top: 1rem;
+  background-color: beige;
+  text-align: center;
+  padding: 0.1rem;
+  color: brown;
+  font-weight: bold;
+  width: 100%;
+  font-size: 1rem;
+  
+  font-family: inherit;
+  
+}
+
+.form button:hover {
+  background-color: brown;
+  color: white;
+}
+.form p {
+  color: red;
+  text-align: center;
+  margin-top: 1px;
+}
+.Titulo {
+  border: 1px solid black;
+  text-align: center;
+  width: 33rem;
+}
+
+.form {
+  margin-top: 1rem;
+}
+
+.login-container-1 {
+  border: 1px solid black;
+  background-color: #E8A0BF;
+  
+
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+  
+}
+
+.footer a{
+  color: brown;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.8rem;
+  
+  font-family: inherit;
+  margin-left: 1rem;
+}
+
+.ejemplo {
+  width: 16rem;
+  
+}
+.rick {
+  border: solid black;
+  width: 9rem;
+  margin: auto;
+  border: transparent;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
