@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useDispatch,useSelector } from "react-redux";
 import { useState } from "react";
-import { addFavorite, removeFavorite } from "../Redux/actions";
+import { addFav, removeFav} from "../Redux/actions";
 import { useEffect } from "react";
 import './Global.css'
 
@@ -23,11 +23,11 @@ export default function Card({
   const handleFavorite = () => {
     if (isFav) {
       SetisFav(false);
-      dispatch(removeFavorite(id));
+      dispatch(removeFav(id));
     } else {
       SetisFav(true);
       dispatch(
-        addFavorite({ id, name, onClose, species, gender, image, origin })
+        addFav({ id, name, onClose, species, gender, image, origin })
       );
     }
   };

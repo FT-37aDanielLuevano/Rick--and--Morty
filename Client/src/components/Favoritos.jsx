@@ -17,6 +17,7 @@ const hanclerFilter = event => {
 
 
   const { myFavorites } = useSelector((state) => state);
+  console.log('ruta favs',myFavorites)
   return (
     <div>
       <div>
