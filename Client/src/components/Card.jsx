@@ -37,7 +37,7 @@ export default function Card({
          SetisFav(true);
       }
    });
-}, [myFavorites,id]);
+}, [myFavorites]);
   return (
     <div key={id} className="container_card">
      

@@ -37,7 +37,7 @@ function App() {
   };
   useEffect(() => {
     !access && navigate("/");
-  }, [access, navigate]);
+  }, [access]);
   // Estado para traer la informacion del servidor de la api de donde obtenemos nuestras imagenes
   const [characters, setCharacters] = useState([]);
   const location = useLocation();

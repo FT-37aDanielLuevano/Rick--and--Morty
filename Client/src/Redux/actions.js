@@ -25,7 +25,6 @@ export const removeFav = (id) => {
   return async (dispatch) => {
     try {
       const {data} = await axios.delete(enpoint)
-      console.log(data)
       if(!data.length) throw new Error("No Hay Favoritos")
       return dispatch({
         type: REMOVE_FAVORITE,
