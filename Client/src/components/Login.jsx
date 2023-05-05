@@ -2,12 +2,13 @@ import { useState } from 'react';
 import { validate } from '../validation';
 import './Global.css';
 import logo from './login/login.jpg'
-
+import axios from 'axios';
 
 
 
 export default function Login({login}) {
 
+  
   const [userData,Setuserdata] = useState({
     email: "",
     password: ""
@@ -32,7 +33,15 @@ export default function Login({login}) {
   // Vamos a refrescar nuestro form para no renderisar nuevamente toda la pagina si no solo lo que cambio 
   const  handleSubmit = (event) => {
     event.preventDefault()
+    axios.post('http://localhost:3001/rickandmorty/login/register', {
+    password: userData.password,
+    email: userData.email,
+    id:1
+  }).then(({data}) => {
+    console.log(data)
+  })
     login(userData)
+   
   
   }
  

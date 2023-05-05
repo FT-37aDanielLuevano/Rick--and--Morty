@@ -1,6 +1,6 @@
 const getCharById = require('../controladores/getCharById')
 
-const login = require('../controladores/login')
+const {login,register} = require('../controladores/login')
 
 const {postFav,deleteFav} = require('../controladores/handleFavorites')
 
@@ -13,6 +13,12 @@ router.get('/character/:id', (req, res) => {
   getCharById(req,res)
 
 })
+router.post('/register', (req, res) => {
+
+  register(req,res)
+
+})
+
 
 router.get('/login', (req, res) => {
   login(req,res);
